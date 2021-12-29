@@ -1,8 +1,8 @@
 import React from 'react'
-import { useToast } from '@chakra-ui/react'
+import { useToast, Flex, Divider } from '@chakra-ui/react'
 
-import {colors, colors2} from '../utils'
-import Color01 from '@/components/Color01'
+import {colors} from '../utils'
+import Colors from '@/components/Colors'
 import GlassEffect from '@/components/GlassEffect'
 
 const HomeContainer = () => {
@@ -23,10 +23,12 @@ const HomeContainer = () => {
 	}
 
 	return (
-		<>
-			<Color01 colors={colors} handlerCopyColor={_handlerCopyColor} />
+		<Flex direction="column" gap={4}>
+			<Colors colors={colors} handlerCopyColor={_handlerCopyColor} />
+			<Divider orientation='horizontal' />
 			<GlassEffect />
-		</>
+			<Divider orientation='horizontal' />
+		</Flex>
 	)
 }
 
