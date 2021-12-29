@@ -4,6 +4,7 @@ import { useToast, Flex, Divider } from '@chakra-ui/react'
 import {colors} from '../utils'
 import Colors from '@/components/Colors'
 import GlassEffect from '@/components/GlassEffect'
+import TabIconInHtml from '@/components/TabIconInHtml'
 
 const HomeContainer = () => {
 	const toast = useToast()
@@ -28,6 +29,7 @@ const HomeContainer = () => {
 			<Divider orientation='horizontal' />
 			<GlassEffect />
 			<Divider orientation='horizontal' />
+			<TabIconInHtml />
 		</Flex>
 	)
 }

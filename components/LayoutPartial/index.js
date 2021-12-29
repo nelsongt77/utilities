@@ -24,6 +24,10 @@ export const SidebarLeft = () => {
             name: 'Glass Effect',
             // link: '/',
             id: 'glass-effect'
+        },
+        {
+            name: 'Tab Icon In Html',
+            id: 'tab-icon-html'
         }
     ]
     return (
