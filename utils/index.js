@@ -1,3 +1,14 @@
+export const menus = [
+	{
+		name: 'Utilities',
+		link: '/'
+	},
+	{
+		name: 'Preview Image',
+		link: '/preview-image',
+	}
+]
+
 export const colors = [
 	{
 		name: 'PURPLE',
